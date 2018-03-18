@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{AD2B9F09-EF79-4453-AC46-4EF90DDCA4BC}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ncdReplace</RootNamespace>
-    <AssemblyName>ncdReplace</AssemblyName>
+    <RootNamespace>vcdReplace</RootNamespace>
+    <AssemblyName>vcdReplace</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

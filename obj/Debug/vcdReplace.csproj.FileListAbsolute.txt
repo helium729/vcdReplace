@@ -1,0 +1,6 @@
+C:\Users\helium729\source\repos\ncdReplace\ncdReplace\bin\Debug\vcdReplace.exe
+C:\Users\helium729\source\repos\ncdReplace\ncdReplace\bin\Debug\vcdReplace.pdb
+C:\Users\helium729\source\repos\ncdReplace\ncdReplace\obj\Debug\vcdReplace.csprojResolveAssemblyReference.cache
+C:\Users\helium729\source\repos\ncdReplace\ncdReplace\obj\Debug\vcdReplace.csproj.CoreCompileInputs.cache
+C:\Users\helium729\source\repos\ncdReplace\ncdReplace\obj\Debug\vcdReplace.exe
+C:\Users\helium729\source\repos\ncdReplace\ncdReplace\obj\Debug\vcdReplace.pdb
