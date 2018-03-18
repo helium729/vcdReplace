@@ -12,7 +12,7 @@ namespace ncdReplace
         {
             if (args.Length != 2)
             {
-                Console.WriteLine("Usage: ncdReplace.exe <OriginPath> <TargetPath>");
+                Console.WriteLine("Usage: vcdReplace.exe <OriginPath> <TargetPath>");
                 return;
             }
             string originPath = args[0];
@@ -72,7 +72,7 @@ namespace ncdReplace
                                 if (r.Count() == 0)
                                     break;
                                 string toReplace = r.ElementAt(0);
-                                t = currentLine.Replace(splited[1], toReplace);
+                                t = splited[0] + toReplace;
                             }
                             else if (splited[0][0] == '#')
                                 t = currentLine;
@@ -85,8 +85,7 @@ namespace ncdReplace
                                 if (r.Count() == 0)
                                     break;
                                 string toReplace = r.ElementAt(0);
-                                t = currentLine.Replace(currentLine.Substring(1), toReplace)
-                                    .Insert(1, " ");
+                                t = currentLine.Substring(0, 1) + " " + toReplace;
                             }
                             writer.WriteLine(t);
                             break;
