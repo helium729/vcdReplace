@@ -72,7 +72,7 @@ namespace vcdReplace
                                 if (r.Count() == 0)
                                     break;
                                 string toReplace = r.ElementAt(0);
-                                t = splited[0] + toReplace;
+                                t = splited[0] + " " + toReplace;
                             }
                             else if (splited[0][0] == '#')
                                 t = currentLine;
